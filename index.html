@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.gstatic.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Mata Kuliah</title>
+  </head>
+  <body>
+    <div class="heading">
+      <h1>Jadwal Mata Kuliah</h1>
+    </div>
+    <div class="topnav" id="myTopnav">
+      <a href="#" class="active">Jadwal</a>
+      <a href="materi.html">Materi</a>
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
+    <br /><br />
+    <div class="timeline">
+      <div class="container left">
+        <div class="content">
+          <h2>Monday (Senin)</h2>
+          <p>
+            <span class="kelas">IF-42-06</span><br />
+            <span class="name"
+              >Sistem Paralel dan Terdistribusi (Praktikum)</span
+            >
+            <br />
+            <span class="time">07.30 - 10.30</span><br />
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>Tuesday (Selasa)</h2>
+          <p>
+            <span class="kelas">IF-42-06</span><br />
+            <span class="name">RPL: Desain dan Implementasi (Praktikum)</span>
+            <br />
+            <span class="time">07.30 - 10.30</span><br />
+          </p>
+          <p>
+            <span class="kelas">IF-41-GAB02</span><br />
+            <span class="name">Visualisasi Data</span><br />
+            <span class="time">09.30 - 12.30</span><br />
+          </p>
+          <p>
+            <span class="kelas">IF-42-06</span><br />
+            <span class="name">Pembelajaran Mesin</span><br />
+            <span class="time">12.30 - 15.30</span><br />
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>Wednesday (Rabu)</h2>
+          <p>
+            <span class="kelas">IF-42-06</span><br />
+            <span class="name">Managemen Proyek TIK</span><br />
+            <span class="time">09.30 - 12.30</span><br />
+          </p>
+          <p>
+            <span class="kelas">IF-42-06</span><br />
+            <span class="name">Sistem Paralel dan Terdistribusi</span><br />
+            <span class="time">14.30 - 17.30</span><br />
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>Thursday (Kamis)</h2>
+          <p>
+            <span class="kelas">IF-42-06</span><br />
+            <span class="name">RPL: Desain dan Implementasi</span><br />
+            <span class="time">13.30 - 16.30</span><br />
+          </p>
+        </div>
+      </div>
+      <div class="container left">
+        <div class="content">
+          <h2>Friday (Jumat)</h2>
+          <p>
+            <span class="kelas">IF-41-GAB03</span><br />
+            <span class="name">Pemodelan dan Simulasi</span><br />
+            <span class="time">13.30 - 16.30</span><br />
+          </p>
+        </div>
+      </div>
+      <div class="container right">
+        <div class="content">
+          <h2>Saturday (Sabtu)</h2>
+          <p>
+            <span class="kelas">IF-42-06</span><br />
+            <span class="name">Keamanan Siber</span><br />
+            <span class="time">09.30 - 12.30</span><br />
+          </p>
+        </div>
+      </div>
+    </div>
+    <br /><br />
+    <footer><p>Copyright © 2021 | Ananta Ihza</p></footer>
+
+    <script>
+      function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+          x.className += " responsive";
+        } else {
+          x.className = "topnav";
+        }
+      }
+    </script>
+  </body>
+</html>
